@@ -17,6 +17,9 @@ LR_ACTOR = 1e-3         # learning rate of the actor
 LR_CRITIC = 1e-3        # learning rate of the critic
 WEIGHT_DECAY = 0        # L2 weight decay
 
+UPDATE_EVERY = 1       # how often to update the network
+UPDATE_TIMES = 1      # how many times to update the network each time
+
 EPSILON = 1.0           # epsilon for the noise process added to the actions
 EPSILON_DECAY = 1e-6    # decay for epsilon above
 
@@ -27,7 +30,7 @@ print(device)
 class Agent():
     """Interacts with and learns from the environment."""
     
-    def __init__(self, state_size, action_size,num_agents, random_seed):
+    def __init__(self, state_size, action_size, random_seed):
         """Initialize an Agent object.
         
         Params
@@ -39,7 +42,6 @@ class Agent():
         self.state_size = state_size
         self.action_size = action_size
         self.seed = random.seed(random_seed)
-        self.num_agents= num_agents
 
         # Actor Network (w/ Target Network)
         self.actor_local = Actor(state_size, action_size, random_seed).to(device)
@@ -53,46 +55,33 @@ class Agent():
 
         # Noise process
         self.epsilon = EPSILON
-        self.noise = OUNoise((num_agents,action_size), random_seed)
+        self.noise = OUNoise(action_size, random_seed)
 
         # Replay memory
         self.memory = ReplayBuffer(action_size, BUFFER_SIZE, BATCH_SIZE, random_seed)
     
-    def step(self, state, action, reward, next_state, done):
+    def step(self, state, action, reward, next_state, done,timestep):
         """Save experience in replay memory, and use random sample from buffer to learn."""
         # Save experience / reward
-        if self.num_agents>1:
-            for agent in range(self.num_agents):
-                self.memory.add(state[agent,:], action[agent,:], reward[agent], next_state[agent,:], done[agent])
-        else:
-                self.memory.add(state,action,reward,next_state,done)
-            
+        self.memory.add(state, action, reward, next_state, done)
+
         # Learn, if enough samples are available in memory
-        if len(self.memory) > BATCH_SIZE :
-            experiences = self.memory.sample()
-            self.learn(experiences, GAMMA)
+        if len(self.memory) > BATCH_SIZE and timestep % UPDATE_EVERY == 0:
+            for _ in range(UPDATE_TIMES):
+                experiences = self.memory.sample()
+                self.learn(experiences, GAMMA)
 
     def act(self, state, add_noise=True):
         """Returns actions for given state as per current policy."""
         state = torch.from_numpy(state).float().to(device)
-        actions = np.zeros((self.num_agents,self.action_size))
         self.actor_local.eval()
-
         with torch.no_grad():
-            if self.num_agents>1:
-                for agent in range(self.num_agents):
-                    actions[agent,:] = self.actor_local(state[agent,:]).cpu().data.numpy()
-            else:
-                  actions[0,:]=self.actor_local(state).cpu().data.numpy()
-            
-            
-            
+            action = self.actor_local(state).cpu().data.numpy()
         self.actor_local.train()
         self.epsilon -= EPSILON_DECAY
-
         if add_noise:
-            actions += np.maximum(self.epsilon, 0.2) * self.noise.sample()
-        return np.clip(actions, -1, 1)
+            action += np.maximum(self.epsilon, 0.2) * self.noise.sample()
+        return np.clip(action, -1, 1)
 
     def reset(self):
         self.noise.reset()
