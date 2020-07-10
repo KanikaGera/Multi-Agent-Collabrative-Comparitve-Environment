@@ -24,7 +24,7 @@ from unityagents import UnityEnvironment
 import numpy as np
 import pickle
 
-env = UnityEnvironment(file_name="/data/Tennis_Linux_NoVis/Tennis")
+env = UnityEnvironment(file_name="Tennis_Linux_NoVis/Tennis_x86_64")
 
 
 # Environments contain **_brains_** which are responsible for deciding the actions of their associated agents. Here we check for the first brain available, and set it as the default brain we will be controlling from Python.
@@ -87,6 +87,8 @@ def ddpg(num_agents=2, n_episodes=20000, max_t=1000):
     scores_window = deque(maxlen=100)
     high= False
     for i_episode in range(1, n_episodes + 1):
+    	if(i_episode ==1):
+    		print("Training Started .. ")
         env_info = env.reset(train_mode=True)[brain_name]  # reset the environment
         states = env_info.vector_observations              # get the current state (for each agent)
         states = np.reshape(states, (1, 48)) 
