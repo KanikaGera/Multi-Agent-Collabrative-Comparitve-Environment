@@ -39,7 +39,7 @@ def ddpg(num_agents=2, n_episodes=20000, max_t=1000):
 	scores_window = deque(maxlen=100)
 	high= False
     for i_episode in range(1, n_episodes + 1):
-		if(i_episode ==1):
+    	if(i_episode ==1):
 			print("Training Started .. ")
 		env_info = env.reset(train_mode=True)[brain_name]  # reset the environment
 		states = env_info.vector_observations              # get the current state (for each agent)
