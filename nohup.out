@@ -1,0 +1,313 @@
+Found path: /home/ubuntu/Project_3/Tennis_Linux_NoVis/Tennis.x86_64
+Mono path[0] = '/home/ubuntu/Project_3/Tennis_Linux_NoVis/Tennis_Data/Managed'
+Mono config path = '/home/ubuntu/Project_3/Tennis_Linux_NoVis/Tennis_Data/MonoBleedingEdge/etc'
+Preloaded 'libgrpc_csharp_ext.x64.so'
+Unable to preload the following plugins:
+	libgrpc_csharp_ext.x86.so
+Logging to /home/ubuntu/.config/unity3d/Unity Technologies/Unity Environment/Player.log
+INFO:unityagents:
+'Academy' started successfully!
+Unity Academy name: Academy
+        Number of Brains: 1
+        Number of External Brains : 1
+        Lesson number : 0
+        Reset Parameters :
+		
+Unity brain name: TennisBrain
+        Number of Visual Observations (per agent): 0
+        Vector Observation space type: continuous
+        Vector Observation space size (per agent): 8
+        Number of stacked Vector Observation: 3
+        Vector Action space type: continuous
+        Vector Action space size (per agent): 2
+        Vector Action descriptions: , 
+Number of agents: 2
+Size of each action: 2
+There are 2 agents. Each observes a state with length: 24
+The state for the first agent looks like: [ 0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.         -6.65278625 -1.5
+ -0.          0.          6.83172083  6.         -0.          0.        ]
+cuda:0
+Training Started .. 
+/home/ubuntu/anaconda3/envs/drlnd/lib/python3.6/site-packages/torch/nn/functional.py:995: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+Episode 100	Average Score: 0.0028	 Max Score: 0.0000
+Episode 200	Average Score: 0.0000	 Max Score: 0.0000
+Found path: /home/ubuntu/Project_3/Tennis_Linux_NoVis/Tennis.x86_64
+Mono path[0] = '/home/ubuntu/Project_3/Tennis_Linux_NoVis/Tennis_Data/Managed'
+Mono config path = '/home/ubuntu/Project_3/Tennis_Linux_NoVis/Tennis_Data/MonoBleedingEdge/etc'
+Preloaded 'libgrpc_csharp_ext.x64.so'
+Unable to preload the following plugins:
+	libgrpc_csharp_ext.x86.so
+Logging to /home/ubuntu/.config/unity3d/Unity Technologies/Unity Environment/Player.log
+INFO:unityagents:
+'Academy' started successfully!
+Unity Academy name: Academy
+        Number of Brains: 1
+        Number of External Brains : 1
+        Lesson number : 0
+        Reset Parameters :
+		
+Unity brain name: TennisBrain
+        Number of Visual Observations (per agent): 0
+        Vector Observation space type: continuous
+        Vector Observation space size (per agent): 8
+        Number of stacked Vector Observation: 3
+        Vector Action space type: continuous
+        Vector Action space size (per agent): 2
+        Vector Action descriptions: , 
+Number of agents: 2
+Size of each action: 2
+There are 2 agents. Each observes a state with length: 24
+The state for the first agent looks like: [ 0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.          0.          0.
+  0.          0.          0.          0.         -6.65278625 -1.5
+ -0.          0.          6.83172083  6.         -0.          0.        ]
+cuda:0
+Training Started .. 
+/home/ubuntu/anaconda3/envs/drlnd/lib/python3.6/site-packages/torch/nn/functional.py:995: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+Episode 100	Average Score: 0.0028	 Max Score: 0.1000
+Episode 200	Average Score: 0.0000	 Max Score: 0.0000
+Episode 300	Average Score: 0.0064	 Max Score: 0.1000
+Episode 400	Average Score: 0.0000	 Max Score: 0.0000
+Episode 500	Average Score: 0.0018	 Max Score: 0.0900
+Episode 600	Average Score: 0.0064	 Max Score: 0.1000
+Episode 700	Average Score: 0.0154	 Max Score: 0.1000
+Episode 800	Average Score: 0.0199	 Max Score: 0.1000
+Episode 900	Average Score: 0.0217	 Max Score: 0.1000
+Episode 1000	Average Score: 0.0238	 Max Score: 0.1000
+Episode 1100	Average Score: 0.0424	 Max Score: 0.1000
+Episode 1200	Average Score: 0.0389	 Max Score: 0.1000
+Episode 1300	Average Score: 0.0396	 Max Score: 0.0900
+Episode 1400	Average Score: 0.0334	 Max Score: 0.1000
+Episode 1500	Average Score: 0.0532	 Max Score: 0.1000
+Episode 1600	Average Score: 0.0477	 Max Score: 0.0900
+Episode 1700	Average Score: 0.0442	 Max Score: 0.1000
+Episode 1800	Average Score: 0.0441	 Max Score: 0.0900
+Episode 1900	Average Score: 0.0352	 Max Score: 0.1000
+Episode 2000	Average Score: 0.0299	 Max Score: 0.1000
+Episode 2100	Average Score: 0.0254	 Max Score: 0.1000
+Episode 2200	Average Score: 0.0333	 Max Score: 0.0900
+Episode 2300	Average Score: 0.0470	 Max Score: 0.1000
+Episode 2400	Average Score: 0.0236	 Max Score: 0.1000
+Episode 2500	Average Score: 0.0374	 Max Score: 0.1000
+Episode 2600	Average Score: 0.0451	 Max Score: 0.1000
+Episode 2700	Average Score: 0.0414	 Max Score: 0.0900
+Episode 2800	Average Score: 0.0396	 Max Score: 0.0900
+Episode 2900	Average Score: 0.0322	 Max Score: 0.1000
+Episode 3000	Average Score: 0.0349	 Max Score: 0.1000
+Episode 3100	Average Score: 0.0329	 Max Score: 0.1000
+Episode 3200	Average Score: 0.0353	 Max Score: 0.1000
+Episode 3300	Average Score: 0.0202	 Max Score: 0.1000
+Episode 3400	Average Score: 0.0226	 Max Score: 0.1000
+Episode 3500	Average Score: 0.0164	 Max Score: 0.1000
+Episode 3600	Average Score: 0.0295	 Max Score: 0.1000
+Episode 3700	Average Score: 0.0348	 Max Score: 0.1900
+Episode 3800	Average Score: 0.0530	 Max Score: 0.2000
+Episode 3900	Average Score: 0.0494	 Max Score: 0.1900
+Episode 4000	Average Score: 0.0487	 Max Score: 0.2000
+Episode 4100	Average Score: 0.0276	 Max Score: 0.1900
+Episode 4200	Average Score: 0.0364	 Max Score: 0.2000
+Episode 4300	Average Score: 0.0504	 Max Score: 0.1900
+Episode 4400	Average Score: 0.0242	 Max Score: 0.1900
+Episode 4500	Average Score: 0.0303	 Max Score: 0.1900
+Episode 4600	Average Score: 0.0407	 Max Score: 0.2000
+Episode 4700	Average Score: 0.0305	 Max Score: 0.1000
+Episode 4800	Average Score: 0.0511	 Max Score: 0.1000
+Episode 4900	Average Score: 0.0508	 Max Score: 0.1900
+Episode 5000	Average Score: 0.0514	 Max Score: 0.1900
+Episode 5100	Average Score: 0.0485	 Max Score: 0.1900
+Episode 5200	Average Score: 0.0503	 Max Score: 0.1900
+Episode 5300	Average Score: 0.0504	 Max Score: 0.1900
+Episode 5400	Average Score: 0.0421	 Max Score: 0.1900
+Episode 5500	Average Score: 0.0484	 Max Score: 0.1900
+Episode 5600	Average Score: 0.0491	 Max Score: 0.1900
+Episode 5700	Average Score: 0.0486	 Max Score: 0.1900
+Episode 5800	Average Score: 0.0509	 Max Score: 0.1000
+Episode 5900	Average Score: 0.0538	 Max Score: 0.1900
+Episode 6000	Average Score: 0.0446	 Max Score: 0.1900
+Episode 6100	Average Score: 0.0518	 Max Score: 0.1900
+Episode 6200	Average Score: 0.0543	 Max Score: 0.1900
+Episode 6300	Average Score: 0.0477	 Max Score: 0.1900
+Episode 6400	Average Score: 0.0284	 Max Score: 0.1000
+Episode 6500	Average Score: 0.0443	 Max Score: 0.1000
+Episode 6600	Average Score: 0.0363	 Max Score: 0.1000
+Episode 6700	Average Score: 0.0380	 Max Score: 0.1000
+Episode 6800	Average Score: 0.0397	 Max Score: 0.1000
+Episode 6900	Average Score: 0.0381	 Max Score: 0.1000
+Episode 7000	Average Score: 0.0262	 Max Score: 0.1000
+Episode 7100	Average Score: 0.0389	 Max Score: 0.1000
+Episode 7200	Average Score: 0.0307	 Max Score: 0.1000
+Episode 7300	Average Score: 0.0362	 Max Score: 0.1000
+Episode 7400	Average Score: 0.0325	 Max Score: 0.1000
+Episode 7500	Average Score: 0.0419	 Max Score: 0.1000
+Episode 7600	Average Score: 0.0408	 Max Score: 0.1000
+Episode 7700	Average Score: 0.0396	 Max Score: 0.0900
+Episode 7800	Average Score: 0.0378	 Max Score: 0.0900
+Episode 7900	Average Score: 0.0380	 Max Score: 0.1000
+Episode 8000	Average Score: 0.0394	 Max Score: 0.1000
+Episode 8100	Average Score: 0.0343	 Max Score: 0.1000
+Episode 8200	Average Score: 0.0299	 Max Score: 0.1000
+Episode 8300	Average Score: 0.0448	 Max Score: 0.1900
+Episode 8400	Average Score: 0.0465	 Max Score: 0.2000
+Episode 8500	Average Score: 0.0555	 Max Score: 0.1900
+Episode 8600	Average Score: 0.0517	 Max Score: 0.1000
+Episode 8700	Average Score: 0.0481	 Max Score: 0.1000
+Episode 8800	Average Score: 0.0537	 Max Score: 0.1000
+Episode 8900	Average Score: 0.0510	 Max Score: 0.2000
+Episode 9000	Average Score: 0.0468	 Max Score: 0.1900
+Episode 9100	Average Score: 0.0513	 Max Score: 0.0900
+Episode 9200	Average Score: 0.0544	 Max Score: 0.1000
+Episode 9300	Average Score: 0.0491	 Max Score: 0.1000
+Episode 9400	Average Score: 0.0488	 Max Score: 0.1000
+Episode 9500	Average Score: 0.0452	 Max Score: 0.1000
+Episode 9600	Average Score: 0.0378	 Max Score: 0.0900
+Episode 9700	Average Score: 0.0406	 Max Score: 0.1000
+Episode 9800	Average Score: 0.0460	 Max Score: 0.1000
+Episode 9900	Average Score: 0.0459	 Max Score: 0.0900
+Episode 10000	Average Score: 0.0444	 Max Score: 0.1000
+Episode 10100	Average Score: 0.0576	 Max Score: 0.1000
+Episode 10200	Average Score: 0.0469	 Max Score: 0.1000
+Episode 10300	Average Score: 0.0481	 Max Score: 0.1000
+Episode 10400	Average Score: 0.0617	 Max Score: 0.2000
+Episode 10500	Average Score: 0.0541	 Max Score: 0.1900
+Episode 10600	Average Score: 0.0485	 Max Score: 0.2000
+Episode 10700	Average Score: 0.0454	 Max Score: 0.2000
+Episode 10800	Average Score: 0.0650	 Max Score: 0.2000
+Episode 10900	Average Score: 0.0593	 Max Score: 0.2900
+Episode 11000	Average Score: 0.0526	 Max Score: 0.2000
+Episode 11100	Average Score: 0.0478	 Max Score: 0.1000
+Episode 11200	Average Score: 0.0603	 Max Score: 0.2000
+Episode 11300	Average Score: 0.0647	 Max Score: 0.1900
+Episode 11400	Average Score: 0.0599	 Max Score: 0.2900
+Episode 11500	Average Score: 0.0426	 Max Score: 0.1000
+Episode 11600	Average Score: 0.0396	 Max Score: 0.1900
+Episode 11700	Average Score: 0.0508	 Max Score: 0.1900
+Episode 11800	Average Score: 0.0578	 Max Score: 0.2000
+Episode 11900	Average Score: 0.1078	 Max Score: 0.7000
+Episode 12000	Average Score: 0.1457	 Max Score: 0.9000
+Episode 12100	Average Score: 0.1419	 Max Score: 0.4000
+Episode 12200	Average Score: 0.1087	 Max Score: 0.3000
+Episode 12300	Average Score: 0.1548	 Max Score: 0.7000
+Episode 12400	Average Score: 0.1998	 Max Score: 1.6000
+Episode 12500	Average Score: 0.2767	 Max Score: 1.5000
+Episode 12600	Average Score: 0.2339	 Max Score: 1.1000
+Episode 12700	Average Score: 0.3873	 Max Score: 2.1000
+Episode 12800	Average Score: 0.3616	 Max Score: 2.6000
+
+Environment solved in 12857 episodes!	Average Score: 0.5034
+
+Environment solved in 12858 episodes!	Average Score: 0.5033
+
+Environment solved in 12859 episodes!	Average Score: 0.5043
+
+Environment solved in 12860 episodes!	Average Score: 0.5223
+
+Environment solved in 12861 episodes!	Average Score: 0.5483
+
+Environment solved in 12862 episodes!	Average Score: 0.5503
+
+Environment solved in 12863 episodes!	Average Score: 0.5572
+
+Environment solved in 12864 episodes!	Average Score: 0.5631
+
+Environment solved in 12865 episodes!	Average Score: 0.5741
+
+Environment solved in 12866 episodes!	Average Score: 0.5800
+
+Environment solved in 12867 episodes!	Average Score: 0.5720
+
+Environment solved in 12868 episodes!	Average Score: 0.5700
+
+Environment solved in 12869 episodes!	Average Score: 0.5740
+
+Environment solved in 12870 episodes!	Average Score: 0.5900
+
+Environment solved in 12871 episodes!	Average Score: 0.5939
+
+Environment solved in 12872 episodes!	Average Score: 0.5919
+
+Environment solved in 12873 episodes!	Average Score: 0.6069
+
+Environment solved in 12874 episodes!	Average Score: 0.6068
+
+Environment solved in 12875 episodes!	Average Score: 0.6057
+
+Environment solved in 12876 episodes!	Average Score: 0.6028
+
+Environment solved in 12877 episodes!	Average Score: 0.5978
+
+Environment solved in 12878 episodes!	Average Score: 0.6057
+
+Environment solved in 12879 episodes!	Average Score: 0.6037
+
+Environment solved in 12880 episodes!	Average Score: 0.6007
+
+Environment solved in 12881 episodes!	Average Score: 0.5978
+
+Environment solved in 12882 episodes!	Average Score: 0.6228
+
+Environment solved in 12883 episodes!	Average Score: 0.6408
+
+Environment solved in 12884 episodes!	Average Score: 0.6668
+
+Environment solved in 12885 episodes!	Average Score: 0.6678
+
+Environment solved in 12886 episodes!	Average Score: 0.6908
+
+Environment solved in 12887 episodes!	Average Score: 0.7138
+
+Environment solved in 12888 episodes!	Average Score: 0.7228
+
+Environment solved in 12889 episodes!	Average Score: 0.7458
+
+Environment solved in 12890 episodes!	Average Score: 0.7528
+
+Environment solved in 12891 episodes!	Average Score: 0.7528
+
+Environment solved in 12892 episodes!	Average Score: 0.7788
+
+Environment solved in 12893 episodes!	Average Score: 0.7837
+
+Environment solved in 12894 episodes!	Average Score: 0.7967
+
+Environment solved in 12895 episodes!	Average Score: 0.8187
+
+Environment solved in 12896 episodes!	Average Score: 0.8187
+
+Environment solved in 12897 episodes!	Average Score: 0.8267
+
+Environment solved in 12898 episodes!	Average Score: 0.8187
+
+Environment solved in 12899 episodes!	Average Score: 0.8407
+Episode 12900	Average Score: 0.8326	 Max Score: 2.7000
+
+Environment solved in 12900 episodes!	Average Score: 0.8326
+
+Environment solved in 12901 episodes!	Average Score: 0.8406
+
+Environment solved in 12902 episodes!	Average Score: 0.8396
+
+Environment solved in 12903 episodes!	Average Score: 0.8216
+
+Environment solved in 12904 episodes!	Average Score: 0.8416
+
+Environment solved in 12905 episodes!	Average Score: 0.8466
+
+Environment solved in 12906 episodes!	Average Score: 0.8416
+
+Environment solved in 12907 episodes!	Average Score: 0.8606
+
+Environment solved in 12908 episodes!	Average Score: 0.8586
+
+Environment solved in 12909 episodes!	Average Score: 0.8826
+
+Environment solved in 12910 episodes!	Average Score: 0.8766
+
+Environment solved in 12911 episodes!	Average Score: 0.8996
+
+Environment solved in 12912 episodes!	Average Score: 0.8986
+
+Environment solved in 12913 episodes!	Average Score: 0.9197
