@@ -1,6 +1,6 @@
 [//]: # (Image References)
 
-[image1]: https://user-images.githubusercontent.com/10624937/43851024-320ba930-9aff-11e8-8493-ee547c6af349.gif "Trained Agent"
+[image1]: https://user-images.githubusercontent.com/10624937/42135623-e770e354-7d12-11e8-998d-29fc74429ca2.gif "Trained Agent"
 
 # Table Tennis Playing 
 ## Collabrative and Competitive Agents
@@ -65,46 +65,68 @@ Each agent is trained individually with reward gained in individual context. Eac
 9. `videos` folder consist of video clipping of trained agents playing.
 
 ### Instructions
-1. Install Dependies by following commands in __Getting Started__
-    
-2.  Download the environment from one of the links below.  You need only select the environment that matches your operating system:
-    - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
-    - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)
-    - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip)
-    - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip)
-    
-    (_For Windows users_) Check out [this link](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64) if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
-
+<ol>
+    <li> Install Dependies by following commands in <b>Getting Started</b> </li>
+    <li> Download the environment from one of the links below.  You need only select the environment that matches your operating system:
+        <ul>
+            <li>Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)</li>
+            <li>Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)</li>
+            <li>Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip)</li>
+            <li>Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip)</li>
+        </ul>
+  
+   <p>
+    (_For Windows users_) Check out [this link](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64) if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system. 
+   </p>
+   
+   <p>
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux_NoVis.zip) to obtain the "headless" version of the environment.  You will **not** be able to watch the agent without enabling a virtual screen, but you will be able to train the agent.  (_To watch the agent, you should follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above._)
+   </p>
+  </li>
 
-3. Place the file in the GitHub repository, in the main folder, and unzip (or decompress) the file. 
+  <li> Place the file in the GitHub repository, in the main folder, and unzip (or decompress) the file. </li>
+</ol>
 
 #### Train the Agents on Jupyter Notebook
-a. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `drl` environment.  
-    ```bash
-    python -m ipykernel install --user --name drl --display-name "drl"
-    ```
+<ul>
+<li> Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `drl` environment.
 
-b. Before running code in a notebook, change the kernel to match the `drl` environment by using the drop-down `Kernel` menu. 
+   `python -m ipykernel install --user --name drl --display-name "drl"`
+ </li> 
+   
+<li> Before running code in a notebook, change the kernel to match the `drl` environment by using the drop-down `Kernel` menu. </li>
 
-c. Open Train_Tennis.ipynb 
-d. Run Jupyter Notebook 
-e. Run the cells to train the model.
+<li> Open Train_Tennis.ipynb  </li>
+
+<li> Run Jupyter Notebook </li>
+
+<li> Run the cells to train the model. </li>
+</ul>
 
 #### Train the Agents in Terminal Background  
+<ul>
+<li> Activate drl envionment
 
-a. Activate drl envionment
-    ``conda activate drl ``
-b. nohup is for training in background. 
-    ``nohup python -u Train_Tennis.py &``
-c. Output can be seen in real-time in ``nohup.out`` file.
-    `` tail -f nohup.out``
+    `conda activate drl `
+</li>
     
+<li> nohup is for training in background. 
+
+    `nohup python -u Train_Tennis.py &`
+</li>
+    
+<li> Output can be seen in real-time in <i>nohup.out</i> file.
+
+    `tail -f nohup.out`
+</li>
+</ul>   '
+
 #### Evaluate Agents
-
-a. Open Evaluate_Tennis.ipynb. The first half of notebook consist of plotting of scores and average score during training. 
-b. Run the cells to plot the graph and analyze the rewards achieved during training.
-c. Test the trained agents , by running the cells marked for testing in the notebook. 
-
+<ul>
+<li> Open Evaluate_Tennis.ipynb. The first half of notebook consist of plotting of scores and average score during training.</li> 
+<li> Run the cells to plot the graph and analyze the rewards achieved during training. </li>
+<li> Test the trained agents , by running the cells marked for testing in the notebook. </li>
+</ul>
+    
 ### Implementation Details
 Multi Agent Deep Deterministic Policy Gradient Algorithm is used to train  Report is attached to main folder for detailed anaylis.
